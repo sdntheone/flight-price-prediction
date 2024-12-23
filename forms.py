@@ -4,10 +4,10 @@ from wtforms import (
     SelectField,
     DateField,
     IntegerField,
-    SubmitField
+    SubmitField,
+    TimeField
 )
 from wtforms.validators import DataRequired
-from wtforms.fields.html5 import TimeField
 
 # Load your data
 train = pd.read_csv("data/train.csv")
